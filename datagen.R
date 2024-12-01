@@ -56,7 +56,7 @@ sim_data <- function(n, n_X, R, taus, factor1, factor2, perc_conf) {
   prop_X <- cbind(X, S, interaction_terms)
   
   # 데이터프레임 생성 및 반환
-  list(
+  data.frame(
     Y = Y, 
     Z = Z, 
     pZ = pZ, 
