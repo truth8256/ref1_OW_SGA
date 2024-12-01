@@ -4,7 +4,7 @@ library(ggplot2)
 library(mvtnorm)
 
 #set working directory
-#dir<-
+dir <- "/cloud/project/" 
 
 
 source(paste0(dir,"datagen.R"))
